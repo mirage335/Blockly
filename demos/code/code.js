@@ -303,8 +303,8 @@ Code.renderContent = function() {
     var xmlText = Blockly.Xml.domToPrettyText(xmlDom);
     xmlTextarea.value = xmlText;
     xmlTextarea.focus();
-  } else if (content.id == 'content_javascript') {
-    Code.attemptCodeGeneration(Blockly.JavaScript, 'js');
+  } else if (content.id == 'content_c') {
+    Code.attemptCodeGeneration(Blockly.c, 'c');
   } else if (content.id == 'content_python') {
     Code.attemptCodeGeneration(Blockly.Python, 'py');
   } else if (content.id == 'content_php') {
