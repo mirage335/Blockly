@@ -33,7 +33,7 @@ goog.require('Blockly.Generator');
  * Python code generator.
  * @type {!Blockly.Generator}
  */
-Blockly.c = new Blockly.Generator('Python');
+Blockly.c = new Blockly.Generator('c');
 
 /**
  * List of illegal variable names.
